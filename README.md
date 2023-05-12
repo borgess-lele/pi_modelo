@@ -25,75 +25,22 @@ O Gerenciamento de Vendas irá incluir um controle de estoque, com as mercadoria
 # 2. Situação Problema
 
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
 Innovatech é uma empresa de eltrônicos que faz a venda dos mesmos e existe desde 2015, o Dono se chama Luiz Fernando ele tem 42 anos e é quem gerencia este empreendimento, dentro da empresa existem hoje 5 funcionários que trabalham para o bom funcionamento da empresa e que fazem vendas dos produtos. O dono da empresa sempre pensa em estrátegias e soluçoes para melhorias internas e externas de sua empresa e também para facilitar o andamento das coisas. 
 
 Atualmente na Innovatech existem certos problemas como por exemplo: não exite um sistema para fazer as vendas corretamente, então é feito todas as vendas manualmente e com isso certamente não exite um controle de estoque, onde só se sabe que o produto está em falta quando o cliente vem atrás do mesmo.
 
-Dentro destes problemas que notamos, a intenção é fazer um sistema onde cada funcionário tenha seu login e senha para realizar suas vendas no caixa e também que cada um tenha um login de acesso ao estoque para que os mesmos consigam cadastrar novos produtos, excluir produtos que estão em inatividade na loja e para ter o controle de quando está prestes a acabar determinado produto, e também a realização de novos cadastro de login e senha quando um funcionário novo for contratado, para que ele não necessite usar o login e a senha de outra pessoa. 
 
 # 3. Descrição da proposta
 
 O foco deste software é para que facilite as vendas e o controle de estoque da empresa;
+
 As pessoas que terão acesso a este sistema será somente quem trabalha na loja e o dono;
-Poderá ser feito no sotware venda de produtos, castramento de funcionários novos e controle de mercadoria
+
+Poderá ser feito no sotware venda de produtos, cadastramento de funcionários novos e controle de mercadoria.
+
+Dentro destes problemas que notamos, a intenção é fazer um sistema onde cada funcionário tenha seu login e senha para realizar suas vendas no caixa e também que cada um tenha um login de acesso ao estoque para que os mesmos consigam cadastrar novos produtos, excluir produtos que estão em inatividade na loja e para ter o controle de quando está prestes a acabar determinado produto, e também a realização de novos cadastro de login e senha quando um funcionário novo for contratado, para que ele não necessite usar o login e a senha de outra pessoa. 
 
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
-
-**4.1 O que são regras de negócio?**
-
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
-
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
-
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
-
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
-
-**4.2 Regras para a criação de regras de negócio**
-
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
-
-**4.3 Por que ter regras de negócio?**
-
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
-
-**4.4 Exemplos de regras de negócio**
-
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
-
-**4.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**4.6 Exemplos de regras de negócio com formatação**
 
 - **RN01 – Criação da Venda:** Para iniciar uma venda no caixa, é necessário primeiro abrir logar ao sistema.
 - **RN02 – Inserir Produtos:** Para inserir um produto na venda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
@@ -101,46 +48,6 @@ controle.
 - **RN04 – Cadastro de novos produtos:** Para realizar cadastro de um novo produtos é necessário ter um produto novo eas informaçoes do mesmo
 
 # 5. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-**5.1 O que são requisitos funcionais?**
-
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
-
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**. 
-
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
-
-**5.2 Tipos de requisitos funcionais**
-
-Os requisitos funcionais podem ser classificados em:
-
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
-
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
-
-Cada requisito funcional precisa ser:
-
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
-
-**5.4 Estrutura do requisito funcional**
-
-Um requisito funcional deve ser estruturado da seguinte forma:
 
 - **Nome do requisito funcional:** descrição do
 requisito. 
