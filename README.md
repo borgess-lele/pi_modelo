@@ -1,8 +1,6 @@
-# Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+# Projeto Integrador - Venda e Estoque de Loja
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
+Um Projeto pensado na venda de mercadorias presencial e também controle de estoque.
 
 Cadastre seu projeto nesse [link](https://docs.google.com/spreadsheets/d/1V_1h6hJ3cNLK5eY7Hy5B8hQDxYy8GcZNHyFfC2HdawI/edit?usp=sharing).
 
@@ -18,85 +16,28 @@ Links do projeto:
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
-
 **1.1.1 Ponto de Vendas (PDV)**
 
 **Gerenciamento de vendas para uma padaria**
 
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-**1.1.2 Empréstimo**
-
-**Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
+O Gerenciamento de Vendas irá incluir um controle de estoque, com as mercadorias que determinada loja vende, neste controle de vendas terá permissão para que o funcionário consiga fazer seu login e realizar uma venda e também um outro login pra que ele consiga ter acesso ao estoque, onde poderá cadastrar novos produtos, excluir produtos que não existem mais na loja, e visualizar quantos produtos ainda restam nesta determinada loja.
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+Innovatech é uma empresa de eltrônicos que faz a venda dos mesmos e existe desde 2015, o Dono se chama Luiz Fernando ele tem 42 anos e é quem gerencia este empreendimento, dentro da empresa existem hoje 5 funcionários que trabalham para o bom funcionamento da empresa e que fazem vendas dos produtos. O dono da empresa sempre pensa em estrátegias e soluçoes para melhorias internas e externas de sua empresa e também para facilitar o andamento das coisas. 
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+Atualmente na Innovatech existem certos problemas como por exemplo: não exite um sistema para fazer as vendas corretamente, então é feito todas as vendas manualmente e com isso certamente não exite um controle de estoque, onde só se sabe que o produto está em falta quando o cliente vem atrás do mesmo.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Dentro destes problemas que notamos, a intenção é fazer um sistema onde cada funcionário tenha seu login e senha para realizar suas vendas no caixa e também que cada um tenha um login de acesso ao estoque para que os mesmos consigam cadastrar novos produtos, excluir produtos que estão em inatividade na loja e para ter o controle de quando está prestes a acabar determinado produto, e também a realização de novos cadastro de login e senha quando um funcionário novo for contratado, para que ele não necessite usar o login e a senha de outra pessoa. 
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
-
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+O foco deste software é para que facilite as vendas e o controle de estoque da empresa;
+As pessoas que terão acesso a este sistema será somente quem trabalha na loja e o dono;
+Poderá ser feito no sotware venda de produtos, castramento de funcionários novos e controle de mercadoria
 
 # 4. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
@@ -154,17 +95,10 @@ controle.
 
 **4.6 Exemplos de regras de negócio com formatação**
 
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+- **RN01 – Criação da Venda:** Para iniciar uma venda no caixa, é necessário primeiro abrir logar ao sistema.
+- **RN02 – Inserir Produtos:** Para inserir um produto na venda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
+- **RN03 – Acesso ao Estoque:** Para acessar ao estoque, é necessário fazer o login.
+- **RN04 – Cadastro de novos produtos:** Para realizar cadastro de um novo produtos é necessário ter um produto novo eas informaçoes do mesmo
 
 # 5. Requisitos funcionais
 (*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
