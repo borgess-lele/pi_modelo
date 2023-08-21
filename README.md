@@ -7,12 +7,12 @@ Cadastre seu projeto nesse [link](https://docs.google.com/spreadsheets/d/1V_1h6h
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Equipe:
-- [Aluno1](https://github.com/borgess-lele)
+- [Letícia](https://github.com/borgess-lele)
 
   
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação](https://github.com/borgess-lele/pi_modelo)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend[Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
